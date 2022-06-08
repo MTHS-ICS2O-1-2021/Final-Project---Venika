@@ -1,0 +1,24 @@
+/* Created by: Venika Sem
+* Created on: Apr 2022
+* This file contains the CSS for index.html
+*/
+
+body {
+  text-align: center;
+  background-color: #000000;
+}
+
+h1 {
+  color: #fff
+}
+
+h3 {
+  color: #fff
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
