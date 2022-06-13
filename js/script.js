@@ -13,9 +13,3 @@ if (navigator.serviceWorker) {
     scope: "/Final-Project---Venika/",
   })
 }
-
-/**
- * This function calculates the pizzas total price
- */
-
- function buttonClicked() {
