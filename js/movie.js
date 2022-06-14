@@ -13,8 +13,3 @@ if (navigator.serviceWorker) {
     scope: "/Final-Project---Venika/",
   })
 }
-
-/**
- * This function gets users random movie
- */
-function buttonClicked() {
