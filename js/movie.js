@@ -43,9 +43,13 @@ if (navigator.serviceWorker) {
    const fourthQuestion4 = document.getElementById("fourthQuestion4").value
 
    // output
-  if (firstQuestion == "firstQuestion" || secondQuestion2 == "secondQuestion2" || thirdQuestion3 == "thirdQuestion3" || fourthQuestion4 == "fourthQuestion4") {
-    document.getElementById("submit").innerHTML = "<h5>You should watch action movie</h5>"
-  } else {
-    document.getElementById("submit").innerHTML = "<h5>You must pay with the museum's regular pricing on this day!</h5>"
-  }
+   if (
+     firstQuestion == "firstQuestion" ||
+     secondQuestion2 == "secondQuestion2" ||
+     thirdQuestion3 == "thirdQuestion3" ||
+     fourthQuestion4 == "fourthQuestion4"
+   ) {
+    document.getElementById("submit").innerHTML =
+      "<h5>You should watch action movie</h5>"
+   }
 }
