@@ -42,14 +42,23 @@ if (navigator.serviceWorker) {
    const thirdQuestion4 = document.getElementById("thirdQuestion4").value
    const fourthQuestion4 = document.getElementById("fourthQuestion4").value
 
-   // output
+   // output 
    if (
      firstQuestion == "firstQuestion" ||
      secondQuestion2 == "secondQuestion2" ||
-     thirdQuestion3 == "thirdQuestion3" ||
-     fourthQuestion4 == "fourthQuestion4"
+     secondQuestion3 == "secondQuestion3" ||
+     secondQuestion4 == "secondQuestion4"
    ) {
     document.getElementById("submit").innerHTML =
-      "<h5>You should watch action movie</h5>"
+      "<h5>Horrow Movies are made for you!</h5>"
+   }
+   if (
+     firstQuestion == "firstQuestion" ||
+     secondQuestion2 == "secondQuestion2" ||
+     secondQuestion3 == "secondQuestion3" ||
+     secondQuestion4 == "secondQuestion4"
+   ) {
+    document.getElementById("submit").innerHTML =
+      "<h5>Horrow Movies are made for you!</h5>"
    }
 }
