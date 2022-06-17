@@ -15,9 +15,9 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function calculates the pizzas total price
+ * This function gives user movie type recommendation
  */
- function buttonClicked() {
+ function submit() {
    // input question 1
    const firstQuestion = document.getElementById("firstQuestion").value
    const secondQuestion = document.getElementById("secondQuestion").value
@@ -46,19 +46,35 @@ if (navigator.serviceWorker) {
    if (
      firstQuestion == "firstQuestion" ||
      secondQuestion2 == "secondQuestion2" ||
-     secondQuestion3 == "secondQuestion3" ||
-     secondQuestion4 == "secondQuestion4"
+     thirdQuestion3 == "thirdQuestion3" ||
+     fourthQuestion4 == "fourthQuestion4"
    ) {
-    document.getElementById("submit").innerHTML =
-      "<h5>Horrow Movies are made for you!</h5>"
+    document.getElementById("submit").innerHTML = location.href = "./horror.html";
    }
-   if (
+   else if (
+     firstQuestion2 == "firstQuestion2" ||
+     secondQuestion == "secondQuestion" ||
+     thirdQuestion3 == "thirdQuestion3" ||
+     fourthQuestion == "fourthQuestion"
+   ) {
+    document.getElementById("submit").innerHTML = location.href = "./romance.html";
+   }
+   else if (
      firstQuestion == "firstQuestion" ||
-     secondQuestion2 == "secondQuestion2" ||
      secondQuestion3 == "secondQuestion3" ||
-     secondQuestion4 == "secondQuestion4"
+     thirdQuestion3 == "thirdQuestion3" ||
+     fourthQuestion3 == "fourthQuestion3"
    ) {
-    document.getElementById("submit").innerHTML =
-      "<h5>Horrow Movies are made for you!</h5>"
+    document.getElementById("submit").innerHTML = location.href = "./action.html";
    }
+   else if (
+     firstQuestion3 == "firstQuestion3" ||
+     secondQuestion == "secondQuestion" ||
+     thirdQuestion == "thirdQuestion" ||
+     fourthQuestion4 == "fourthQuestion4"
+   ) {
+    document.getElementById("submit").innerHTML = location.href = "./comedy.html";
+   } else {
+     document.getElementById("submit").innerHTML = location.href = "./action.html";
+     }
 }

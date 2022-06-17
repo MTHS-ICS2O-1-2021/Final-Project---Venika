@@ -5,15 +5,15 @@
 
 body {
   text-align: center;
-  background-color: #000;
+  background-color: #45426c;
 }
 
 h1 {
-  color: #fff;
+  color: #ccc2e5;
 }
 
 h3 {
-  color: #fff;
+  color: #ccc2e5;
 }
 
 img {
@@ -27,4 +27,8 @@ img {
   position: relative;
   top: -16px;
   left: -502px;
+}
+
+.mdl-radio__label {
+  color: #ccc2e5
 }
