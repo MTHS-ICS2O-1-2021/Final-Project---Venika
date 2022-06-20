@@ -5,15 +5,15 @@
 
 body {
   text-align: center;
-  background-color: #45426c;
+  background-color: #29b8ff;
 }
 
 h1 {
-  color: #ccc2e5;
+  color: #001a57;
 }
 
 h3 {
-  color: #ccc2e5;
+  color: #003dcc;
 }
 
 img {
@@ -23,12 +23,10 @@ img {
   width: 65%;
 }
 
-.button2 {
-  position: relative;
-  top: -16px;
-  left: -502px;
+.mdl-button {
+  position: center;
 }
 
 .mdl-radio__label {
-  color: #ccc2e5
+  color: #001a57
 }
