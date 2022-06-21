@@ -44,7 +44,6 @@ function myButtonClicked() {
      firstQuestion3 == "firstQuestion3" 
     ) {
     document.getElementById("submit").innerHTML = "<h3>ACTION MOVIES!</h3>" 
-    setTimeout(myButtonClicked, 3000);
     location.href = "./horror.html"
   }
 }
