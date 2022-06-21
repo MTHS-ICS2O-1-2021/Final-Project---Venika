@@ -37,13 +37,22 @@ function myButtonClicked() {
   const thirdQuestion3 = document.getElementById("thirdQuestion3").value
   const fourthQuestion3 = document.getElementById("fourthQuestion3").value
 
-  // output 
+  // output
   if (
      firstQuestion == "firstQuestion" &&
      firstQuestion2 == "firstQuestion2" &&
      firstQuestion3 == "firstQuestion3" 
     ) {
-    document.getElementById("submit").innerHTML = "<h3>ACTION MOVIES!</h3>" 
-    location.href = "./horror.html"
+    document.getElementById("submit").innerHTML
+    location.href = "./action.html"
+  }
+  
+  if (
+     secondQuestion == "secondQuestion" &&
+     secondQuestion2 == "secondQuestion2" &&
+     secondQuestion3 == "secondQuestion3" 
+    ) {
+    document.getElementById("submit").innerHTML
+    location.href = "./romance.html"
   }
 }
