@@ -4,7 +4,7 @@
 // Created on: Mar 2022
 // This file contains the JS functions for index.html
 
-'use strict'
+"use strict"
 
 /**
  * This function generates random romance movie.
