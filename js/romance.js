@@ -1,10 +1,13 @@
-/* Created by: Venika Sem
- * Created on: June 2022
- * This file contains the JS functions for romance.html
- */
+// Copyright (c) 2022 Venika Sem All rights reserved
+//
+// Created by: Venika Sem
+// Created on: Mar 2022
+// This file contains the JS functions for index.html
+
+'use strict'
 
 /**
- * This function gives user random romance movie
+ * This function generates random romance movie.
  */
 var images = [
   "https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png",

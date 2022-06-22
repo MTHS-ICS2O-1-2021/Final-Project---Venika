@@ -1,10 +1,13 @@
-/* Created by: Venika Sem
- * Created on: June 2022
- * This file contains the JS functions for action.html
- */
+// Copyright (c) 2022 Venika Sem All rights reserved
+//
+// Created by: Venika Sem
+// Created on: Mar 2022
+// This file contains the JS functions for index.html
+
+'use strict'
 
 /**
- * This function gives user random actiion movie
+ * This function generates random acrion movie.
  */
 var images = [
   "https://i.pinimg.com/originals/6e/e3/68/6ee368fb71e49bda6cf1019a4eebf00a.jpg",
