@@ -53,4 +53,12 @@ function myButtonClicked() {
     document.getElementById("submit").innerHTML
     location.href = "./romance.html"
   }
+  } else if (
+    fourthQuestion == "fourthQuestion" &&
+    fourthQuestion2 == "fourthQuestion2" &&
+    thirdQuestion3 == "thirdQuestion3"
+  ) {
+    document.getElementById("submit").innerHTML
+    location.href = "./comedy.html"
+  }
 }

@@ -2,13 +2,11 @@
 //
 // Created by: Venika Sem
 // Created on: Mar 2022
-// This file contains the JS functions for index.html
+// This file contains the JS functions for romance.html
 
 "use strict"
 
-/**
- * This function generates random romance movie.
- */
+// movie links generator
 var images = [
   "https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png",
   "https://m.media-amazon.com/images/M/MV5BNzVmMjJlN2MtNWQ4Ny00Zjc2LWJjYTgtYjJiNGM5MTM1ZTlkXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
@@ -23,6 +21,9 @@ var images = [
   "https://upload.wikimedia.org/wikipedia/en/d/da/Leap_year_poster.jpg",
 ]
 
+/**
+ * This function generates random romance movie.
+ */
 function randImg() {
   var size = images.length
   var x = Math.floor(size * Math.random())

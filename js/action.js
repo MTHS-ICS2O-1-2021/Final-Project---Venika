@@ -2,13 +2,11 @@
 //
 // Created by: Venika Sem
 // Created on: Mar 2022
-// This file contains the JS functions for index.html
+// This file contains the JS functions for action.html
 
 "use strict"
 
-/**
- * This function generates random acrion movie.
- */
+// movie links generator
 var images = [
   "https://i.pinimg.com/originals/6e/e3/68/6ee368fb71e49bda6cf1019a4eebf00a.jpg",
   "https://external-preview.redd.it/RsBk-jCROKvdN5at1L3ofUHLW7NsVfTkvlxWk50RNH8.jpg?width=640&crop=smart&auto=webp&s=7a5ce0ba332eb14c0d173cef57a1343cbd831ceb",
@@ -23,6 +21,9 @@ var images = [
   "https://www.mobygames.com/images/covers/l/147400-the-matrix-online-windows-front-cover.jpg",
 ]
 
+/**
+ * This function generates random action movie.
+ */
 function randImg() {
   var size = images.length
   var x = Math.floor(size * Math.random())
