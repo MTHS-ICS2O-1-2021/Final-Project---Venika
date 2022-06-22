@@ -36,7 +36,7 @@ function myButtonClicked() {
   const secondQuestion3 = document.getElementById("secondQuestion3")
   const thirdQuestion3 = document.getElementById("thirdQuestion3")
   const fourthQuestion3 = document.getElementById("fourthQuestion3")
-  
+
   // output
   if (
     firstQuestion.checked == true &&
@@ -62,7 +62,7 @@ function myButtonClicked() {
     thirdQuestion3.checked == true
   ) {
     document.getElementById("submit").innerHTML
-    location.href = "./comedy.html"   
+    location.href = "./comedy.html"
   }
 
   if (
@@ -71,7 +71,7 @@ function myButtonClicked() {
     thirdQuestion3.checked == true
   ) {
     document.getElementById("submit").innerHTML
-    location.href = "./family.html" 
+    location.href = "./family.html"
   }
 
   if (
@@ -80,6 +80,6 @@ function myButtonClicked() {
     fourthQuestion3.checked == true
   ) {
     document.getElementById("submit").innerHTML
-    location.href = "./fantasy.html" 
+    location.href = "./fantasy.html"
   }
 }
