@@ -39,10 +39,13 @@ function myButtonClicked() {
   
   // output
   
-  if (firstQuestion.checked == true && firstQuestion2.checked == true && firstQuestion3.checked == true) {
+  if (
+    firstQuestion.checked == true &&
+    firstQuestion2.checked == true &&
+    firstQuestion3.checked == true
+  ) {
     document.getElementById("submit").innerHTML
     location.href = "./action.html"
-    
   }
   
   if (secondQuestion.checked == true && secondQuestion2.checked == true && secondQuestion3.checked == true) {
