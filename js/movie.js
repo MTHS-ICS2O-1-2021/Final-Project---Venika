@@ -38,7 +38,6 @@ function myButtonClicked() {
   const fourthQuestion3 = document.getElementById("fourthQuestion3")
   
   // output
-  
   if (
     firstQuestion.checked == true &&
     firstQuestion2.checked == true &&
@@ -47,6 +46,7 @@ function myButtonClicked() {
     document.getElementById("submit").innerHTML
     location.href = "./action.html"
   }
+  
   if (
     secondQuestion.checked == true &&
     secondQuestion2.checked == true &&
@@ -55,6 +55,7 @@ function myButtonClicked() {
     document.getElementById("submit").innerHTML
     location.href = "./romance.html"
   }
+  
   if (
     fourthQuestion.checked == true &&
     fourthQuestion2.checked == true &&
@@ -63,6 +64,7 @@ function myButtonClicked() {
     document.getElementById("submit").innerHTML
     location.href = "./comedy.html"  
   }
+  
   if (
     fourthQuestion.checked == true &&
     fourthQuestion2.checked == true &&
@@ -71,6 +73,7 @@ function myButtonClicked() {
     document.getElementById("submit").innerHTML
     location.href = "./comedy.html"   
   }
+  
   if (
     thirdQuestion.checked == true &&
     thirdQuestion2.checked == true &&
@@ -79,6 +82,7 @@ function myButtonClicked() {
     document.getElementById("submit").innerHTML
     location.href = "./family.html"   
   }
+  
   if (
     fifthQuestion.checked == true &&
     firstQuestion2.checked == true &&
