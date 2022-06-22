@@ -17,7 +17,7 @@ var images = [
   "http://content8.flixster.com/rtmovie/87/14/87146_gal.jpg",
   "https://pics.filmaffinity.com/Iron_Man-108960873-large.jpg",
   "https://upload.wikimedia.org/wikipedia/en/7/70/Terminator1984movieposter.jpg",
-  "https://www.mobygames.com/images/covers/l/147400-the-matrix-online-windows-front-cover.jpg"
+  "https://www.mobygames.com/images/covers/l/147400-the-matrix-online-windows-front-cover.jpg",
 ]
 
 function randImg() {

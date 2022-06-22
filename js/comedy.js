@@ -8,7 +8,7 @@ var images = [
   "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-28288-superbad-1800-1406643154.jpg?w=1024",
   "https://s.yimg.com/ny/api/res/1.2/TXUpaTJfzQC4xHe6ENMmuA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTk0OA--/https://s.yimg.com/uu/api/res/1.2/De9o0U6ivf7g1v1WwqO8cw--~B/aD0xNDQwO3c9OTcyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/digital_spy_281/cd90db734c01e5f1a65242dd05499b8f",
   "https://i.pinimg.com/originals/44/bd/0f/44bd0f871fb17f956703a5c2538d71bb.jpg",
-  "https://trailers.apple.com/trailers/independent/once-i-was-engaged/images/poster_2x.jpg"
+  "https://trailers.apple.com/trailers/independent/once-i-was-engaged/images/poster_2x.jpg",
 ]
 
 function randImg() {
