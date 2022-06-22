@@ -48,21 +48,48 @@ function myButtonClicked() {
     location.href = "./action.html"
   }
   
-  if (secondQuestion.checked == true && secondQuestion2.checked == true && secondQuestion3.checked == true) {
+  if (
+    secondQuestion.checked == true &&
+    secondQuestion2.checked == true &&
+    secondQuestion3.checked == true
+  ) {
     document.getElementById("submit").innerHTML
     location.href = "./romance.html"
-    
   }
 
-  if (fourthQuestion.checked == true && fourthQuestion2.checked == true && thirdQuestion3.checked == true) {
+  if (
+    fourthQuestion.checked == true &&
+    fourthQuestion2.checked == true &&
+    thirdQuestion3.checked == true
+  ) {
     document.getElementById("submit").innerHTML
-    location.href = "./comedy.html"
-    
+    location.href = "./comedy.html"  
   }
 
-  if (fourthQuestion.checked == true && fourthQuestion2.checked == true && thirdQuestion3.checked == true) {
+  if (
+    fourthQuestion.checked == true &&
+    fourthQuestion2.checked == true &&
+    thirdQuestion3.checked == true
+  ) {
     document.getElementById("submit").innerHTML
-    location.href = "./comedy.html"
-    
+    location.href = "./comedy.html"   
+  }
+
+  if (
+    thirdQuestion.checked == true &&
+    thirdQuestion2.checked == true &&
+    thirdQuestion3.checked == true
+  ) {
+    document.getElementById("submit").innerHTML
+    location.href = "./family.html"   
+  }
+
+  if (
+    fifthQuestion.checked == true &&
+    firstQuestion2.checked == true &&
+    fourthQuestion3.checked == true
+  ) {
+    document.getElementById("submit").innerHTML
+    location.href = "./fantasy.html"   
   }
 }
