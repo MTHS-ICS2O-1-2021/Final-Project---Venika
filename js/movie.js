@@ -80,6 +80,6 @@ function myButtonClicked() {
     fourthQuestion3.checked == true
   ) {
     document.getElementById("submit").innerHTML
-    location.href = "./fantasy.html"  
+    location.href = "./fantasy.html" 
   }
 }
