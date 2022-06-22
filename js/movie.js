@@ -44,7 +44,7 @@ function myButtonClicked() {
     firstQuestion3.checked == true
   ) {
     document.getElementById("submit").innerHTML
-    location.href = "./action.html"
+      location.href = "./action.html"
   }
   
   if (
@@ -53,7 +53,7 @@ function myButtonClicked() {
     secondQuestion3.checked == true
   ) {
     document.getElementById("submit").innerHTML
-    location.href = "./romance.html"
+      location.href = "./romance.html"
   }
   
   if (
@@ -62,7 +62,7 @@ function myButtonClicked() {
     thirdQuestion3.checked == true
   ) {
     document.getElementById("submit").innerHTML
-    location.href = "./comedy.html"  
+      location.href = "./comedy.html"  
   }
   
   if (
@@ -71,7 +71,7 @@ function myButtonClicked() {
     thirdQuestion3.checked == true
   ) {
     document.getElementById("submit").innerHTML
-    location.href = "./comedy.html"   
+      location.href = "./comedy.html"   
   }
   
   if (
@@ -80,7 +80,7 @@ function myButtonClicked() {
     thirdQuestion3.checked == true
   ) {
     document.getElementById("submit").innerHTML
-    location.href = "./family.html"   
+      location.href = "./family.html"   
   }
   
   if (
@@ -89,6 +89,6 @@ function myButtonClicked() {
     fourthQuestion3.checked == true
   ) {
     document.getElementById("submit").innerHTML
-    location.href = "./fantasy.html"   
+      location.href = "./fantasy.html"   
   }
 }
