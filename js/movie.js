@@ -45,9 +45,7 @@ function myButtonClicked() {
   ) {
     document.getElementById("submit").innerHTML
     location.href = "./action.html"
-  }
-
-  else if (
+  } else if (
     secondQuestion == "secondQuestion" &&
     secondQuestion2 == "secondQuestion2" &&
     secondQuestion3 == "secondQuestion3"

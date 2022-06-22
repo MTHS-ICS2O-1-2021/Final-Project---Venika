@@ -17,12 +17,13 @@ var images = [
   "https://culturexchange1.files.wordpress.com/2016/12/open-uri20150422-12561-ms34bn_c52bad8d.jpeg",
   "https://i2.wp.com/funmoneymom.com/wp-content/uploads/2021/08/Aladdin-Movie-Poster-2-1.jpg",
   "https://m.media-amazon.com/images/M/MV5BNWE1NmMzNjUtMDc3NS00ZjBlLTllMTktZTVkMWQzZGVlYzdhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-  "https://upload.wikimedia.org/wikipedia/en/d/da/Leap_year_poster.jpg"]
+  "https://upload.wikimedia.org/wikipedia/en/d/da/Leap_year_poster.jpg"
+]
 
 function randImg() {
   var size = images.length
   var x = Math.floor(size * Math.random())
-  document.getElementById('image').src = images[x]
+  document.getElementById("image").src = images[x]
 }
 
 randImg()
