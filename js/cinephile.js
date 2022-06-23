@@ -12,7 +12,6 @@ var images = [
   "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1591908704-51-nrjuaA1L.jpg?crop=1xw:1xh;center,top&resize=768:*",
   "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1585169537-41mazFVw6XL.jpg?crop=1xw:1xh;center,top&resize=768:*",
   "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1591909302-51VUrIj4bQL.jpg?crop=1xw:1xh;center,top&resize=768:*",
-  "hhttps://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1591908418-516Bk9B6xDL.jpg?crop=1xw:1xh;center,top&resize=768:*",
   "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1585170366-51p4ICoyPPL.jpg?crop=1xw:1xh;center,top&resize=768:*",
   "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1585170073-51l0gEDghbL.jpg?crop=1xw:1xh;center,top&resize=768:*",
   "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1585167351-51MseeNTNjL.jpg?crop=1xw:1xh;center,top&resize=768:*",
