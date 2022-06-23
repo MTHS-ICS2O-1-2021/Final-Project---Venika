@@ -22,7 +22,7 @@ var images = [
 ]
 
 /**
- * This function generates random action movie.
+ * This function generates random comics.
  */
 function randImg() {
   var size = images.length
