@@ -13,7 +13,6 @@ var images = [
   "https://images-na.ssl-images-amazon.com/images/I/91y6Bwz9vdL.jpg",
   "https://i.annihil.us/u/prod/marvel/i/mg/7/03/57ae211708557/portrait_uncanny.jpg",
   "https://www.previewsworld.com/SiteImage/MainImage/STL099340",
-  "https://static.wikia.nocookie.net/marvel_dc/images/4/46/Justice_League_Vol_2_11.jpg/revision/latest?cb=20120719051021",
   "https://i0.wp.com/batman-news.com/wp-content/uploads/2018/11/Detective-Comics-993.jpg?fit=1988%2C3056&quality=80&strip=info&ssl=1",
   "https://i.annihil.us/u/prod/marvel/i/mg/4/e0/4bb6eef0eab3d/portrait_uncanny.jpg",
   "https://i0.wp.com/batman-news.com/wp-content/uploads/2018/11/Batgirl-29.jpg?fit=1988%2C3056&quality=80&strip=info&ssl=1",
